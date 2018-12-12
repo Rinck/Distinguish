@@ -13,7 +13,7 @@ def get_file_content(filePath):
     with open(filePath, 'rb') as fp:
         return fp.read()
 
-image = get_file_content('fuck.jpg')
+image = get_file_content('cat.jpg')
 
 """ 调用通用物体识别 """
 client.advancedGeneral(image);
